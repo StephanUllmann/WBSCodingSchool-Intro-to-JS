@@ -9,9 +9,9 @@ export function sayHelloIfILikeYou(name, iLikeYou) {
    * e.g. with name="John" and random=.8, return "I don't like you". The COMMA IS IMPORTANT!
    * */
   if (iLikeYou) {
-    return `Hello, ${name}.`;
+    return `Hello, ${name}`;
   } else {
-    return "I don't like you.";
+    return "I don't like you";
   }
 }
 
@@ -26,6 +26,6 @@ export const sayHelloIfItIsSunny = (name, weather) => {
    * e.g. with name="John" and weather="rainy", return "I don't like rainy weather".
    * */
   if (weather === 'sunny') {
-    return `Hello, ${name}. What a sunny day!`;
+    return `Hello, ${name}. What a sunny day`;
   } else return `I don't like ${weather} weather`;
 };
