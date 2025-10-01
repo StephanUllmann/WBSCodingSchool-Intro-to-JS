@@ -54,7 +54,7 @@ jobs:
         with:
           fetch-depth: 0 # Let's get all the branches.
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: '20'
       - name: Test
